@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EC0523B21481EBB00375F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0523A21481EBB00375F18 /* AppDelegate.swift */; };
+		9EC0523D21481EBB00375F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0523C21481EBB00375F18 /* ViewController.swift */; };
+		9EC0524021481EBB00375F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC0523E21481EBB00375F18 /* Main.storyboard */; };
+		9EC0524221481EBC00375F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC0524121481EBC00375F18 /* Assets.xcassets */; };
+		9EC0524521481EBC00375F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC0524321481EBC00375F18 /* LaunchScreen.storyboard */; };
+		9EC0525021481EBC00375F18 /* About_Blake_BranvoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0524F21481EBC00375F18 /* About_Blake_BranvoldTests.swift */; };
+		9EC0525B21481EBC00375F18 /* About_Blake_BranvoldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0525A21481EBC00375F18 /* About_Blake_BranvoldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EC0524C21481EBC00375F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC0522F21481EBB00375F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC0523621481EBB00375F18;
+			remoteInfo = "About Blake Branvold";
+		};
+		9EC0525721481EBC00375F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC0522F21481EBB00375F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC0523621481EBB00375F18;
+			remoteInfo = "About Blake Branvold";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EC0523721481EBB00375F18 /* About Blake Branvold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "About Blake Branvold.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC0523A21481EBB00375F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EC0523C21481EBB00375F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EC0523F21481EBB00375F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EC0524121481EBC00375F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EC0524421481EBC00375F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EC0524621481EBC00375F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC0524B21481EBC00375F18 /* About Blake BranvoldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "About Blake BranvoldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC0524F21481EBC00375F18 /* About_Blake_BranvoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_Blake_BranvoldTests.swift; sourceTree = "<group>"; };
+		9EC0525121481EBC00375F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC0525621481EBC00375F18 /* About Blake BranvoldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "About Blake BranvoldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC0525A21481EBC00375F18 /* About_Blake_BranvoldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_Blake_BranvoldUITests.swift; sourceTree = "<group>"; };
+		9EC0525C21481EBC00375F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EC0523421481EBB00375F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC0524821481EBC00375F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC0525321481EBC00375F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EC0522E21481EBB00375F18 = {
+			isa = PBXGroup;
+			children = (
+				9EC0523921481EBB00375F18 /* About Blake Branvold */,
+				9EC0524E21481EBC00375F18 /* About Blake BranvoldTests */,
+				9EC0525921481EBC00375F18 /* About Blake BranvoldUITests */,
+				9EC0523821481EBB00375F18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EC0523821481EBB00375F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0523721481EBB00375F18 /* About Blake Branvold.app */,
+				9EC0524B21481EBC00375F18 /* About Blake BranvoldTests.xctest */,
+				9EC0525621481EBC00375F18 /* About Blake BranvoldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EC0523921481EBB00375F18 /* About Blake Branvold */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0523A21481EBB00375F18 /* AppDelegate.swift */,
+				9EC0523C21481EBB00375F18 /* ViewController.swift */,
+				9EC0523E21481EBB00375F18 /* Main.storyboard */,
+				9EC0524121481EBC00375F18 /* Assets.xcassets */,
+				9EC0524321481EBC00375F18 /* LaunchScreen.storyboard */,
+				9EC0524621481EBC00375F18 /* Info.plist */,
+			);
+			path = "About Blake Branvold";
+			sourceTree = "<group>";
+		};
+		9EC0524E21481EBC00375F18 /* About Blake BranvoldTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0524F21481EBC00375F18 /* About_Blake_BranvoldTests.swift */,
+				9EC0525121481EBC00375F18 /* Info.plist */,
+			);
+			path = "About Blake BranvoldTests";
+			sourceTree = "<group>";
+		};
+		9EC0525921481EBC00375F18 /* About Blake BranvoldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC0525A21481EBC00375F18 /* About_Blake_BranvoldUITests.swift */,
+				9EC0525C21481EBC00375F18 /* Info.plist */,
+			);
+			path = "About Blake BranvoldUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EC0523621481EBB00375F18 /* About Blake Branvold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC0525F21481EBC00375F18 /* Build configuration list for PBXNativeTarget "About Blake Branvold" */;
+			buildPhases = (
+				9EC0523321481EBB00375F18 /* Sources */,
+				9EC0523421481EBB00375F18 /* Frameworks */,
+				9EC0523521481EBB00375F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "About Blake Branvold";
+			productName = "About Blake Branvold";
+			productReference = 9EC0523721481EBB00375F18 /* About Blake Branvold.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EC0524A21481EBC00375F18 /* About Blake BranvoldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC0526221481EBC00375F18 /* Build configuration list for PBXNativeTarget "About Blake BranvoldTests" */;
+			buildPhases = (
+				9EC0524721481EBC00375F18 /* Sources */,
+				9EC0524821481EBC00375F18 /* Frameworks */,
+				9EC0524921481EBC00375F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC0524D21481EBC00375F18 /* PBXTargetDependency */,
+			);
+			name = "About Blake BranvoldTests";
+			productName = "About Blake BranvoldTests";
+			productReference = 9EC0524B21481EBC00375F18 /* About Blake BranvoldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EC0525521481EBC00375F18 /* About Blake BranvoldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC0526521481EBC00375F18 /* Build configuration list for PBXNativeTarget "About Blake BranvoldUITests" */;
+			buildPhases = (
+				9EC0525221481EBC00375F18 /* Sources */,
+				9EC0525321481EBC00375F18 /* Frameworks */,
+				9EC0525421481EBC00375F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC0525821481EBC00375F18 /* PBXTargetDependency */,
+			);
+			name = "About Blake BranvoldUITests";
+			productName = "About Blake BranvoldUITests";
+			productReference = 9EC0525621481EBC00375F18 /* About Blake BranvoldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EC0522F21481EBB00375F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = 90304593;
+				TargetAttributes = {
+					9EC0523621481EBB00375F18 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9EC0524A21481EBC00375F18 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EC0523621481EBB00375F18;
+					};
+					9EC0525521481EBC00375F18 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EC0523621481EBB00375F18;
+					};
+				};
+			};
+			buildConfigurationList = 9EC0523221481EBB00375F18 /* Build configuration list for PBXProject "About Blake Branvold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EC0522E21481EBB00375F18;
+			productRefGroup = 9EC0523821481EBB00375F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EC0523621481EBB00375F18 /* About Blake Branvold */,
+				9EC0524A21481EBC00375F18 /* About Blake BranvoldTests */,
+				9EC0525521481EBC00375F18 /* About Blake BranvoldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EC0523521481EBB00375F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC0524521481EBC00375F18 /* LaunchScreen.storyboard in Resources */,
+				9EC0524221481EBC00375F18 /* Assets.xcassets in Resources */,
+				9EC0524021481EBB00375F18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC0524921481EBC00375F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC0525421481EBC00375F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EC0523321481EBB00375F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC0523D21481EBB00375F18 /* ViewController.swift in Sources */,
+				9EC0523B21481EBB00375F18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC0524721481EBC00375F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC0525021481EBC00375F18 /* About_Blake_BranvoldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC0525221481EBC00375F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC0525B21481EBC00375F18 /* About_Blake_BranvoldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC0524D21481EBC00375F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC0523621481EBB00375F18 /* About Blake Branvold */;
+			targetProxy = 9EC0524C21481EBC00375F18 /* PBXContainerItemProxy */;
+		};
+		9EC0525821481EBC00375F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC0523621481EBB00375F18 /* About Blake Branvold */;
+			targetProxy = 9EC0525721481EBC00375F18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EC0523E21481EBB00375F18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC0523F21481EBB00375F18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EC0524321481EBC00375F18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC0524421481EBC00375F18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EC0525D21481EBC00375F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EC0525E21481EBC00375F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EC0526021481EBC00375F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "About Blake Branvold/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Blake.Branvold.About-Blake-Branvold";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9EC0526121481EBC00375F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "About Blake Branvold/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Blake.Branvold.About-Blake-Branvold";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9EC0526321481EBC00375F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "About Blake BranvoldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Blake.Branvold.About-Blake-BranvoldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/About Blake Branvold.app/About Blake Branvold";
+			};
+			name = Debug;
+		};
+		9EC0526421481EBC00375F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "About Blake BranvoldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Blake.Branvold.About-Blake-BranvoldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/About Blake Branvold.app/About Blake Branvold";
+			};
+			name = Release;
+		};
+		9EC0526621481EBC00375F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "About Blake BranvoldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Blake.Branvold.About-Blake-BranvoldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "About Blake Branvold";
+			};
+			name = Debug;
+		};
+		9EC0526721481EBC00375F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "About Blake BranvoldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Blake.Branvold.About-Blake-BranvoldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "About Blake Branvold";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EC0523221481EBB00375F18 /* Build configuration list for PBXProject "About Blake Branvold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC0525D21481EBC00375F18 /* Debug */,
+				9EC0525E21481EBC00375F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC0525F21481EBC00375F18 /* Build configuration list for PBXNativeTarget "About Blake Branvold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC0526021481EBC00375F18 /* Debug */,
+				9EC0526121481EBC00375F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EC0526221481EBC00375F18 /* Build configuration list for PBXNativeTarget "About Blake BranvoldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC0526321481EBC00375F18 /* Debug */,
+				9EC0526421481EBC00375F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EC0526521481EBC00375F18 /* Build configuration list for PBXNativeTarget "About Blake BranvoldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC0526621481EBC00375F18 /* Debug */,
+				9EC0526721481EBC00375F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EC0522F21481EBB00375F18 /* Project object */;
+}
