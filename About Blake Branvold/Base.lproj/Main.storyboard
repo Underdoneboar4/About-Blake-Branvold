@@ -1,26 +1,110 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="About_Blake_Branvold" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5y6-2J-ZdT">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlakeB" translatesAutoresizingMaskIntoConstraints="NO" id="m95-RU-XHT">
+                                        <rect key="frame" x="107" y="0.0" width="200" height="518"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jeA-TH-c2D">
+                                        <rect key="frame" x="151.66666666666669" y="538" width="110.66666666666669" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="AyH-x0-nfR">
+                                        <rect key="frame" x="0.0" y="588" width="414" height="128"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsn-of-hAp">
+                                                <rect key="frame" x="0.0" y="0.0" width="81" height="128"/>
+                                                <state key="normal" image="SPaghet">
+                                                    <color key="titleColor" red="0.56518742180000003" green="0.96124427359999998" blue="0.44817021150000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ChangeToImg1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tU5-xC-6uw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJs-BF-vRX">
+                                                <rect key="frame" x="111" y="0.0" width="81" height="128"/>
+                                                <state key="normal" backgroundImage="ThumbUpBroski">
+                                                    <color key="titleColor" red="0.56518742180000003" green="0.96124427359999998" blue="0.44817021150000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ChangeToImg2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uqy-vQ-d78"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="253" verticalHuggingPriority="253" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="753" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKX-Tp-mI8">
+                                                <rect key="frame" x="222" y="0.0" width="81" height="128"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" backgroundImage="OkeyNOTRACIST">
+                                                    <color key="titleColor" red="0.56518742180000003" green="0.96124427359999998" blue="0.44817021150000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ChangeToImg3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDt-uh-gJ4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="254" verticalHuggingPriority="254" horizontalCompressionResistancePriority="754" verticalCompressionResistancePriority="754" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hE6-7Z-t96">
+                                                <rect key="frame" x="333" y="0.0" width="81" height="128"/>
+                                                <state key="normal" image="FLiperooni">
+                                                    <color key="titleColor" red="0.56518742180000003" green="0.96124427359999998" blue="0.44817021150000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ChangeToImg4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7nJ-JY-9gh"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5y6-2J-ZdT" secondAttribute="bottom" id="QPR-cH-HQM"/>
+                            <constraint firstItem="5y6-2J-ZdT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="g0k-2y-RZy"/>
+                            <constraint firstItem="5y6-2J-ZdT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hol-SA-gse"/>
+                            <constraint firstAttribute="trailing" secondItem="5y6-2J-ZdT" secondAttribute="trailing" id="kvP-u1-cnR"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="FlippedButton" destination="hE6-7Z-t96" id="KZh-zH-rac"/>
+                        <outlet property="ImageChange" destination="m95-RU-XHT" id="uXI-XW-Zh2"/>
+                        <outlet property="LabelText" destination="jeA-TH-c2D" id="GR2-u9-Ldi"/>
+                        <outlet property="OkaySymbolButton" destination="JKX-Tp-mI8" id="aGQ-Zp-5Aw"/>
+                        <outlet property="SpaghetButton" destination="Bsn-of-hAp" id="9k2-i4-CDJ"/>
+                        <outlet property="ThumbUpButton" destination="AJs-BF-vRX" id="C0y-Q9-EbL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BlakeB" width="200" height="200"/>
+        <image name="FLiperooni" width="128" height="128"/>
+        <image name="OkeyNOTRACIST" width="128" height="128"/>
+        <image name="SPaghet" width="128" height="128"/>
+        <image name="ThumbUpBroski" width="128" height="128"/>
+    </resources>
 </document>
